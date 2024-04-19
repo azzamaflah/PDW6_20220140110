@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drunk Text henry moodie</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="music-info">
+        <img src="assets/anime.jpg" alt="Drunk Text" />
+        <div class="song-details">
+          <h1>Drunk Text</h1>
+          <p>Zamm Vs THEWORLD</p>
+        </div>
+      </div>
+      <div class="audio-player">
+        <audio id="audio-player" src="assets/music.mp3" preload="auto"></audio>
+        <div class="audio-controls">
+          <button id="play-btn" class="spotify-btn">Play</button>
+          <button id="pause-btn" class="spotify-btn" style="display: none">
+            Pause
+          </button>
+          <div class="audio-slider">
+            <input
+              type="range"
+              id="audio-progress"
+              value="0"
+              min="0"
+              max="100"
+            />
+          </div>
+          <span id="duration">0:00</span>
+          <!-- Menampilkan durasi lagu -->
+        </div>
+      </div>
+      <div class="audio-spectrum"></div>
+      <!-- Added for audio spectrum effect -->
+    </div>
+
+    <script src="script/main.js"></script>
+  </body>
+</html>
