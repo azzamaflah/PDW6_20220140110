@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("assets/Drunk.jpg"); /* Ganti dengan path ke gambar Anda */
+  background-image: url("/assets/Drunk.jpg"); /* Ganti dengan path ke gambar Anda */
   background-size: fixed;
   background-position: center;
   overflow: hidden; /* Menyembunyikan overflow agar efek tidak muncul di luar layar */
