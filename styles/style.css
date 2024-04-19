@@ -20,7 +20,7 @@ body {
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-image: url("assets/Drunk.jpg"); /* Ganti dengan path ke gambar Anda */
+  background-image: url(""); /* Ganti dengan path ke gambar Anda */
   background-size: cover; /* Membuat gambar latar belakang menutupi seluruh area */
   background-position: center; /* Menyelaraskan gambar latar belakang ke tengah */
 }
